@@ -30,7 +30,7 @@
   --bs-gray-dark: #4B5D68;
   --bs-primary: #5F37EF;
   --bs-secondary: #299EF3;
-  --bs-success: #68C9BA;
+  --bs-success: #62AE8B;
   --bs-info: #9C69E2;
   --bs-warning: #FFBA49;
   --bs-danger: #F063B8;
@@ -3882,16 +3882,15 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-success {
-  color: #68C9BA;
-  border-color: #68C9BA;
+  color: #62AE8B;
+  border-color: #62AE8B;
 }
 
 .btn-outline-success:hover {
-  color: #4B5D68;
-  background-color: #68C9BA;
-  border-color: #68C9BA;
+  color: #FFF;
+  background-color: #62AE8B;
+  border-color: #62AE8B;
 }
-
 .btn-check:focus + .btn-outline-success, .btn-outline-success:focus {
   -webkit-box-shadow: 0 0 0 0 rgba(104, 201, 186, 0.5);
   box-shadow: 0 0 0 0 rgba(104, 201, 186, 0.5);
@@ -8446,7 +8445,7 @@ fieldset:disabled .btn {
 }
 
 .mt-8 {
-  margin-top: 7.5rem !important;
+  margin-top: 6.5rem !important;
 }
 
 .mt-9 {
@@ -18218,6 +18217,15 @@ label {
   border: 0;
 }
 
+.card-header{
+  background-color: #62AE8B;
+}
+.card-work{
+  background-color: #EA9E68;
+}
+.item-partners{
+  background-color: #f2f2f2;
+}
 /*-----------------------------------------------
 |   User Styles
 -----------------------------------------------*/
