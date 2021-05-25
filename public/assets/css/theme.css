@@ -5290,6 +5290,15 @@ fieldset:disabled .btn {
   border-radius: calc(0.625rem - 2px);
 }
 
+.card-img-top{
+  background:#f3f3f3;
+  height: 200px;
+}
+
+.bt-read{
+  width: 15rem;
+}
+
 .card-img,
 .card-img-top,
 .card-img-bottom {
@@ -18224,7 +18233,30 @@ label {
   background-color: #EA9E68;
 }
 .item-partners{
+  width: 250px;
   background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.item-partners img{
+  width: 300px;
+  
+}
+.img-news img{
+ width:160px;
+ border-radius:15px;
+}
+.col-news{
+  width: 500px;
+  border-radius:15px;
+  background-color: #f2f2f2;
+}
+.title-news h4{
+  font-weight: bold;
+}
+
+.item-event{
+  height: ;
 }
 /*-----------------------------------------------
 |   User Styles
